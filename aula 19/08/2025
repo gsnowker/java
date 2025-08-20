@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class cadastro {
+    public static void main(String[]args) {
+        int idade;
+        String nome, profissao;
+        System.out.println("Informe seu nome: ");
+        Scanner teclado = new Scanner(System.in);
+        nome = teclado.nextLine();
+        System.out.println("Iforme a profissão: ");
+        profissao = teclado.nextLine();
+        System.out.println("Informe a idade: ");
+        idade = teclado.nextInt();
+        System.out.println("Seus dados: Nome: " + nome + ", Profissão: " + 
+            profissao + ", Idade: " + idade);
+    }
+}
